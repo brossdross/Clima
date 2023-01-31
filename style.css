@@ -10,7 +10,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    background-color: var(--bg-color);
+    background-image: url(/images/2515255.jpg);
+    background-size: cover;
     color: var(--text-color);
 }
 
@@ -27,7 +28,7 @@ footer {
     position: fixed;
     bottom: 0;
     padding: 20px 0px;
-    border-top: 1px solid grey;
+    border-top: 2px solid black;
     width: 100%;
     text-align: center;
 }
@@ -41,7 +42,7 @@ footer {
     background-color: var(--text-color);
     max-width: 480px;
     margin: 0px auto;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .search {
@@ -61,7 +62,7 @@ outline: none;
     color: var(--bg-color);
     padding: 20px;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 .city {
